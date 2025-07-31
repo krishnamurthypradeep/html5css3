@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  font-size: 30px;
+}
+
+div {
+  display: flex;
+  flex-direction: column-reverse;
+  min-height: calc(100vh - 160px);
+}
+
+div div {
+  flex-direction: row;
+  margin: 10px 0;
+}
+
+aside,main{
+  flex-grow: 1;
+  background: bisque;
+}
+
+aside{
+  width: calc(100% - 10px );
+  margin-right: 10px;
+}
+main{
+  width:  calc(70% - 10px);
+}
+footer {
+  background: #EFEFEF;
+  color: white;
+  height: 70px;
+}

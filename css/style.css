@@ -1,0 +1,17 @@
+h1{
+  margin: 20px;
+  border-left: 8px solid white;
+  border-right: 8px solid white;
+  padding: 12px;
+}
+
+.sizedbox {
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+  border: 2px solid black;
+  padding: 12px;
+  margin: 4px;
+  font-size: 2em;
+  overflow: visible;
+}

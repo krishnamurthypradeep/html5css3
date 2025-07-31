@@ -1,0 +1,19 @@
+* { font-family: Arial }
+div {
+  background: #FFD166;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 10px
+}
+@media screen and (max-width: 600px) {
+  div {background-color: #E5E5E5}
+
+}
+
+@media screen and (min-width: 601px) and  (max-width: 800px)  {
+  div {font-size: 24px; border: 10px solid #E5E5E5}
+
+}
+@media screen and (min-width: 800px) {
+  div{display: inline-block}
+}

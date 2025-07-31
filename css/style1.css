@@ -1,0 +1,28 @@
+header, footer {
+  background: #444;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  /*overflow: auto;*/
+}
+main{
+  float: left;
+  width: 75%;
+  background-color: green;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  background: blue;
+  padding: 1em;
+
+}
+
+footer {
+  clear:  both;
+}
